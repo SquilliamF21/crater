@@ -1,6 +1,8 @@
 os.execute("mkdir src")
 os.execute("mkdir lib")
 os.execute("mkdir bin")
+os.execute("mkdir config")
+os.execute("mkdir test")
 local newFile = io.open("src/main.lua", "w+")
 newFile:write("print('Hello!')")
 newFile:close()
